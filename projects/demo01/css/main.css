@@ -1,0 +1,8 @@
+/* body {padding-top: 70px;} */
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
