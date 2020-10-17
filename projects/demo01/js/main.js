@@ -6,8 +6,8 @@ $.get('get.py')
 
 $(document).ready(function() {
 
-  var interval = 100000;
-  function doAjax() {
+  var interval = 10000;
+  function refresh() {
     //$.ajaxSetup({ cache: false });
     $.ajax({
       type: 'post',
@@ -18,7 +18,7 @@ $(document).ready(function() {
         $("#stockList2").empty();
         $("#stockList2").append('Ticker: TSLA<br>Current Share Price: $'+d); 
       },
-      complete: function (data) { setTimeout(doAjax, interval); }
+      complete: function (data) { setTimeout(refresh, interval); }
     });
 
     $.ajax({
@@ -30,22 +30,10 @@ $(document).ready(function() {
         $("#stockList3").empty();
         $("#stockList3").append('Ticker: MSFT<br>Current Share Price: $'+d); 
       },
-      complete: function (data) { setTimeout(doAjax, interval); }
-    });
-
-    $.ajax({
-      type: 'post',
-      url: 'get.py',
-      data: {ticker:"AMZN"},
-      dataType: 'json',
-      success: function(d) {
-        $("#stockList4").empty();
-        $("#stockList4").append('Ticker: AMZN<br>Current Share Price: $'+d); 
-      },
-      complete: function (data) { setTimeout(doAjax, interval); }
+      complete: function (data) { setTimeout(refresh, interval); }
     });
   }
-  setTimeout(doAjax, interval);
+  setTimeout(refresh, interval);
 
   $("#search").click(function(e) {
     //$('#getTicker').submit(function(e){
