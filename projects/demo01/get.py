@@ -8,10 +8,13 @@ cgitb.enable()
 form = cgi.FieldStorage()
 ticker = form.getvalue('ticker')
 
-payload = {'symbol':ticker, 'token':'bto0drv48v6v7atidivg'}
-r = requests.get('https://finnhub.io/api/v1/quote', params=payload)
-rs = r.json()
-rs2 = rs['c']
-
-print ('Content-Type: application/json\n\n')
-print(rs2)
+if ticker is not None :
+    payload = {'symbol':ticker, 'token':'bto0drv48v6v7atidivg'}
+    r = requests.get('https://finnhub.io/api/v1/quote', params=payload)
+    rs = r.json()
+    rs2 = rs['c']
+    print ('Content-Type: application/json\n\n')
+    print(rs2)
+else :
+    print ('Content-Type: application/json\n\n')
+    print('please type ticker')
