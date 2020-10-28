@@ -6,7 +6,7 @@ $.get('get.py')
 
 $(document).ready(function() {
 
-  var interval = 50000;
+  var interval = 10000;
   function refresh() {
     //$.ajaxSetup({ cache: false });
     $.ajax({
@@ -16,7 +16,7 @@ $(document).ready(function() {
       dataType: 'json',
       success: function(d) {
         $("#stockList2").empty();
-        $("#stockList2").append('Ticker: TSLA<br>Current Share Price: $'+d); 
+        $("#stockList2").append('Ticker: TSLA<br>Share Price: $'+d); 
       },
       complete: function (data) { setTimeout(refresh, interval); }
     });
@@ -26,7 +26,11 @@ $(document).ready(function() {
 
   $("#search").click(function(e) {
       e.preventDefault();
-      $("#search").prop("disabled", true);
+
+      if($("#tickerInput").val() == ''){
+        alert('please type ticker');
+        return;
+      }
       $.ajax({
         url:"get.py",
         type:"get",
@@ -38,13 +42,13 @@ $(document).ready(function() {
           let timezone = Date.now();
           let result = JSON.stringify(d);
           let realResult = JSON.parse(result);
-          if(realResult.c != '0'){
-            $("#stockList").append('Current Date: '+new Date().toLocaleDateString()+'<br>Current Time: '+new Date().toLocaleTimeString()+'<br>Share Price: $'+realResult);
+          if(realResult != '0'){
+            $("#stockList").append('Ticker: '+$("#tickerInput").val().toUpperCase()+'<br>Current Date: '+new Date().toLocaleDateString()+'<br>Current Time: '+new Date().toLocaleTimeString()+'<br>Share Price: $'+realResult);
             setTimeout(function(){
               $("#search").prop("disabled", false);
             },1000);
           }else
-            $("#stockList").append('Wrong ticker try again');
+            $("#stockList").append('Wrong ticker name try again');
             setTimeout(function(){
               $("#search").prop("disabled", false);
             },1000);
