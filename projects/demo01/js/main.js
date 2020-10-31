@@ -42,7 +42,7 @@ $(document).ready(function() {
           let timezone = Date.now();
           let result = JSON.stringify(d);
           let realResult = JSON.parse(result);
-          if(realResult != '0'){
+          if(realResult != '0' && realResult == isNaN){
             $("#stockList").append('Ticker: '+$("#tickerInput").val().toUpperCase()+'<br>Current Date: '+new Date().toLocaleDateString()+'<br>Current Time: '+new Date().toLocaleTimeString()+'<br>Share Price: $'+realResult);
             setTimeout(function(){
               $("#search").prop("disabled", false);

@@ -15,10 +15,10 @@ if ticker is not None :
     rs2 = rs['c']
     if rs2 == 0:
         print ('Content-Type: application/json\n\n')
-        print('Please type exist ticker') 
+        print('{"error":"Wrong ticker name try again"}') 
     else :
         print ('Content-Type: application/json\n\n')
         print(rs2)
 else :
     print ('Content-Type: application/json\n\n')
-    print('please type ticker')
+    print('{"error":"Please type ticker"}')
