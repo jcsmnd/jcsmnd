@@ -13,8 +13,12 @@ if ticker is not None :
     r = requests.get('https://finnhub.io/api/v1/quote', params=payload)
     rs = r.json()
     rs2 = rs['c']
-    print ('Content-Type: application/json\n\n')
-    print(rs2)
+    if rs2 == 0:
+        print ('Content-Type: application/json\n\n')
+        print('Please type exist ticker') 
+    else :
+        print ('Content-Type: application/json\n\n')
+        print(rs2)
 else :
     print ('Content-Type: application/json\n\n')
     print('please type ticker')
