@@ -42,13 +42,13 @@ $(document).ready(function() {
           let timezone = Date.now();
           let result = JSON.stringify(d);
           let realResult = JSON.parse(result);
-          if(realResult != '0' && realResult == isNaN){
+          if(realResult != '0' && !realResult.error){
             $("#stockList").append('Ticker: '+$("#tickerInput").val().toUpperCase()+'<br>Current Date: '+new Date().toLocaleDateString()+'<br>Current Time: '+new Date().toLocaleTimeString()+'<br>Share Price: $'+realResult);
             setTimeout(function(){
               $("#search").prop("disabled", false);
             },1000);
           }else
-            $("#stockList").append('Wrong ticker name try again');
+            $("#stockList").append('Wrong ticker name try again!');
             setTimeout(function(){
               $("#search").prop("disabled", false);
             },1000);
