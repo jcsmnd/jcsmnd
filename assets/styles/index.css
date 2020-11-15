@@ -37,12 +37,26 @@ a.btn {
   transition: 0.4s;
 }
 
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+  background-color: #876ccf;
+}
+
 #musicPlayer {
   height: 25px; 
-  width: 300px;
+  max-width: 100%;
 }
 
 .footer {
   position: fixed;
   bottom: 0px;
+  width: 100%;
+  overflow: visible;
+  z-index: 99;
+  background: rgb(124, 12, 158);
+  border-top: solid rgb(141, 116, 255) 2px;
+  background-color: #876ccf;
+  -webkit-box-shadow: 0px -5px 15px 0px #bfbfbf;
+  box-shadow: 0px -5px 15px 0px #bfbfbf;
+  height: 25px;
+
 }

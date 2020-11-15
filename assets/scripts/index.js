@@ -1,7 +1,8 @@
 $(document).ready(function(){
+	$('#musicPlayer').prop("volume", 0.3);
 	$(window).scroll(function () {	
 		$(this).scrollTop() > 50 ? $('#back-to-top').fadeIn() : $('#back-to-top').fadeOut();
-		$(this).scrollTop() > 20 ? $("#navbar").css({"padding":"0px 16px", "opacity":"0.5"}).add(".navbar-brand").css({"font-size":"8px"}) : $("#navbar").css({"padding":"16px 16px", "opacity":"1.0"}).add(".navbar-brand").css({"font-size":"1.171875rem"});
+		$(this).scrollTop() > 20 ? $("#navbar").css({"padding":"0px 16px", "opacity":"0.9"}).add(".navbar-brand").css({"font-size":"12px"}) : $("#navbar").css({"padding":"16px 16px", "opacity":"1.0"}).add(".navbar-brand").css({"font-size":"1.171875rem"});
 	});
 
 	$('#back-to-top').click(function () {
@@ -20,6 +21,4 @@ $(document).ready(function(){
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip()
 	});
-	
-	$('#musicPlayer').prop("volume", 0.3);
 });
