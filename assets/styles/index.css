@@ -36,3 +36,13 @@ a.btn {
 #navbar {
   transition: 0.4s;
 }
+
+#musicPlayer {
+  height: 25px; 
+  width: 300px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+}
