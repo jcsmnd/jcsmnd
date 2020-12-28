@@ -34,7 +34,7 @@
   <div class="jumbotron">
     <form id="getTicker" action="get.py" method="get" name="getTicker" class="form-inline" novalidate>
         <label for="tickerName">Ticker:</label>
-        <input id="tickerInput" name="ticker" type="text" class="form-control" placeholder="msft" required>
+        <input id="tickerInput" name="ticker" type="text" class="form-control" placeholder="msft" onkeyup="this.value = this.value.toUpperCase()" required>
         <button type="submit" id="search" value="Search!" class="btn btn-primary">Search!</button>
     </form>   
   </div>

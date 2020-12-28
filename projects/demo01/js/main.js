@@ -26,7 +26,6 @@ $(document).ready(function() {
 
   $("#search").click(function(e) {
       e.preventDefault();
-
       if($("#tickerInput").val() == ''){
         alert('please type ticker');
         return;
