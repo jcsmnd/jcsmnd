@@ -1,6 +1,6 @@
 # Welcome to jcsmnd.com
 
-**Hello!** this is my personal website that includes blogs, demos, and interesting projects.
+**Hello!** It's my personal website that includes blogs, demos, and interesting projects.
 
 Please check it out! [jcsmnd.com](https://www.jcsmnd.com)
 
