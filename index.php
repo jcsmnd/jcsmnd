@@ -1,3 +1,5 @@
+<?php echo "php test"; ?>
+
 <!-- disable vscode default extension for lightsail ssh remote cpu and memory consumption => @builtin typescript -->
 <!DOCTYPE html>
 <html lang="en">
