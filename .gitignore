@@ -11,3 +11,4 @@ projects/demo01/.htaccess
 ads.txt
 favicon.ico
 nodejs/node_modules
+db_config.php

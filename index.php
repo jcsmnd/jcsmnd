@@ -1,6 +1,28 @@
-<?php echo "php test"; ?>
-
 <!-- disable vscode default extension for lightsail ssh remote cpu and memory consumption => @builtin typescript -->
+<?php
+    require 'db_config.php';
+    $con_success = 1;
+    try {
+        $db = new PDO($db_info['DB_SERVER'].';dbname='.$db_info['DB_NAME'], $db_info['DB_USER'], $db_info['DB_PW']);
+    } catch(PDOException $e) {
+        $con_success = 0;
+    }
+    if($con_success === 1 ){
+        $ts = new DateTime("now", new DateTimeZone('America/Los_Angeles'));
+        $ts = $ts->format('Y-m-d H:i:s');
+        $ip = getenv('HTTP_CLIENT_IP')?:
+        getenv('HTTP_X_FORWARDED_FOR')?:
+        getenv('HTTP_X_FORWARDED')?:
+        getenv('HTTP_FORWARDED_FOR')?:
+        getenv('HTTP_FORWARDED')?:
+        getenv('REMOTE_ADDR');
+        $stmt = $db->prepare("INSERT INTO access_log (ip_addr, ts) VALUES (:ip_addr, :ts)");
+        $stmt->bindParam(':ip_addr', $ip);
+        $stmt->bindParam(':ts', $ts);
+        $result = $stmt->execute();
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
