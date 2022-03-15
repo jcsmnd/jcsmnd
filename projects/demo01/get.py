@@ -9,7 +9,7 @@ form = cgi.FieldStorage()
 ticker = form.getvalue('ticker')
 
 if ticker is not None :
-    payload = {'symbol':ticker, 'token':'bto0drv48v6v7atidivg'}
+    payload = {'symbol':ticker, 'token':'c8mh6uqad3ie3jik8gkg'}
     r = requests.get('https://finnhub.io/api/v1/quote', params=payload)
     rs = r.json()
     rs2 = rs['c']

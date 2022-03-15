@@ -8,7 +8,7 @@
     } catch(PDOException $e) {
         $con_success = 0;
     }
-    if($con_success === 1){
+    if($con_success === 1 && !isset($_SESSION)){
         $ts = new DateTime("now", new DateTimeZone('America/Los_Angeles'));
         $ts = $ts->format('Y-m-d H:i:s');
         $ip = getenv('HTTP_CLIENT_IP')?:
@@ -31,7 +31,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>JCSMND 2021</title>
+    <title>JCSMND 2022</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/styles/bootstrap/bootstrap.css">
