@@ -1,13 +1,46 @@
 <!-- disable vscode default extension for lightsail ssh remote cpu and memory consumption => @builtin typescript -->
 <?php
+<<<<<<< HEAD
 include_once 'pdo.php';
 $db = new pdoDB;
+=======
+    require 'db_config.php';
+    $con_success = 0;
+    try {
+        $db = new PDO($db_info['DB_SERVER'].';dbname='.$db_info['DB_NAME'], $db_info['DB_USER'], $db_info['DB_PW']);
+        $con_success = 1;
+    } catch(PDOException $e) {
+        $con_success = 0;
+    }
+    if($con_success === 1 && !isset($_SESSION)){
+        $ts = new DateTime("now", new DateTimeZone('America/Los_Angeles'));
+        $ts = $ts->format('Y-m-d H:i:s');
+        $ip = getenv('HTTP_CLIENT_IP')?:
+        getenv('HTTP_X_FORWARDED_FOR')?:
+        getenv('HTTP_X_FORWARDED')?:
+        getenv('HTTP_FORWARDED_FOR')?:
+        getenv('HTTP_FORWARDED')?:
+        getenv('REMOTE_ADDR');
+        $get_browser = json_encode(get_browser(null, true));
+        $user_agent = $_SERVER['HTTP_USER_AGENT'];
+        $stmt = $db->prepare("INSERT INTO access_log (ip_addr, get_browser, user_agent, ts) VALUES (:ip_addr, :get_browser, :user_agent, :ts)");
+        $stmt->bindParam(':ip_addr', $ip);
+        $stmt->bindParam(':get_browser', $get_browser);
+        $stmt->bindParam(':user_agent', $user_agent);
+        $stmt->bindParam(':ts', $ts);
+        $result = $stmt->execute();
+    }
+>>>>>>> aa7c7b6ad00d4a394ee7002930573dcbecaff38d
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
     <title>JCSMND <?php echo date("Y");?></title>
+=======
+    <title>JCSMND 2022</title>
+>>>>>>> aa7c7b6ad00d4a394ee7002930573dcbecaff38d
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/styles/bootstrap/bootstrap.css">
