@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Is Laravel fully support 100% custom php?
+                    Does Laravel fully support 100% custom php?
                 </div>
             </div>
         </div>

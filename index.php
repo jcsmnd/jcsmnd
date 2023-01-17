@@ -25,9 +25,9 @@ $db = new pdoDB;
 <div class="jumbotron text-center">
     <p class="img"><img id="tiger" src="assets/images/31255509.png" alt="Towson Tigers" class="rounded-circle"></p>
     <p><h2 class="hide"><i class="far fa-smile"></i> Hello!</h2></p> 
-    <p><h4 class="hide">I'm web developer.</h4></p>
+    <!-- <p><h4 class="hide">Welcome to my website.</h4></p> -->
 </div>
-<div class="container">
+<!-- <div class="container">
     <div id="rotate" class="row text-center">
         <div class="col-sm-3">
             <a href="https://blog.jcsmnd.com" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)">WP Blog</a>
@@ -53,24 +53,8 @@ $db = new pdoDB;
         <div class="col-sm-3">
             <a href="/projects/demo04" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" title="Unity3D WebGL">Demo4</a>
         </div>
-        <div class="col-sm-3">
-            <a href="https://www.linkedin.com/in/myungsik-k-3b5453133/" class="btn btn-primary btn-block" role="button">LinkedIn</a>
-        </div>
     </div>
-</div>
-<!-- <div class="container">
-	<div class="row justify-content-center">
-        <img src="https://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-        <img src="https://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-        <img src="https://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">		
-	</div>
 </div> -->
 <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
-
-<!-- <footer class="footer">
-        <audio id="musicPlayer" controls autoplay loop>
-            <source src="assets/music/Deep Hat - Vibe Tracks.mp3"  type="audio/mpeg">
-        </audio>
-</footer> -->
 </body>
 </html>
