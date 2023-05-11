@@ -27,7 +27,7 @@ $db = new pdoDB;
     <p><h2 class="hide"><i class="far fa-smile"></i> Hello!</h2></p> 
     <!-- <p><h4 class="hide">Welcome to my website.</h4></p> -->
 </div>
-<!-- <div class="container">
+<div class="container">
     <div id="rotate" class="row text-center">
         <div class="col-sm-3">
             <a href="https://blog.jcsmnd.com" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)">WP Blog</a>
@@ -54,7 +54,7 @@ $db = new pdoDB;
             <a href="/projects/demo04" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" title="Unity3D WebGL">Demo4</a>
         </div>
     </div>
-</div> -->
+</div>
 <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
 </body>
 </html>
