@@ -30,28 +30,28 @@ $db = new pdoDB;
 <div class="container">
     <div id="rotate" class="row text-center">
         <div class="col-sm-3">
-            <a href="https://blog.jcsmnd.com" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)">WP Blog</a>
+            <a href="https://blog.jcsmnd.com" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)">WP Blog</a>
         </div>
         <div class="col-sm-3">
-            <a href="https://github.com/jcsmnd" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" title="Here are some samples of the projects I worked on during attending the school or internship including java, asp.net, laravel, etc..">Github</a>
+            <a href="https://github.com/jcsmnd" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Here are some samples of the projects I worked on during attending the school or internship including java, asp.net, laravel, etc..">Github</a>
         </div>
         <div class="col-sm-3">
-            <a href="https://jcsmnd.github.io" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" title="2nd blog using Github Pages - Markdown">Github.io</a>  
+            <a href="https://jcsmnd.github.io" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="2nd blog using Github Pages - Markdown">Github.io</a>  
         </div>
         <div class="col-sm-3">
-            <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" title="Laravel">Laravel</a> 
+            <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Laravel">Laravel</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo01" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" title="US Stock tracker - finnhub API with python cgi">Demo1</a> 
+            <a href="/projects/demo01" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="US Stock tracker - finnhub API with python cgi">Demo1</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo02" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" title="RESTful - Github API with Vanilla JavaScript">Demo2</a> 
+            <a href="/projects/demo02" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="RESTful - Github API with Vanilla JavaScript">Demo2</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/nodejs" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" title=".io game - node.js">Demo3</a> 
+            <a href="/nodejs" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=".io game - node.js">Demo3</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo04" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" title="Unity3D WebGL">Demo4</a>
+            <a href="/projects/demo04" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Unity3D WebGL">Demo4</a>
         </div>
     </div>
 </div>
