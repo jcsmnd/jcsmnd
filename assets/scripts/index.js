@@ -13,8 +13,7 @@ $(document).ready(function(){
 	});
 
 	TweenMax.to("#tiger", 2, {scale:0.8});
-	TweenMax.to("#tiger", 1, {boxShadow:"5px 5px 30px 10px rgba(255,255,255)",repeat:-1,yoyo:true});
-	
+	TweenMax.to("#tiger", 1, {boxShadow:"3px 3px 50px 10px rgba(255,255,255)",repeat:-1,yoyo:true});
 	const tl = gsap.timeline({defaults: { ease: "power1.out" }});
 	tl.to(".hide", {y:"0%", duration: 2});
 	
