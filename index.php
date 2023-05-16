@@ -54,6 +54,9 @@ $db = new pdoDB;
         <div class="col-sm-3">
             <a href="/nextcloud" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Nextcloud</a>
         </div>
+        <div class="col-sm-3">
+            <a href="https://github.com/jcsmnd" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Github</a>
+        </div>
     </div>
 </div>
 <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
