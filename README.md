@@ -4,6 +4,12 @@
 
 Please check it out! [jcsmnd.com](https://www.jcsmnd.com)
 
+Operated by:
+Amazon Web Services Lightsail - Virtual Ubuntu 18.04.6 LTS
+- Apache HTTP Server
+- PHP 8.2.6
+- MYSQL 5.7.42
+- Laravel 10.10.1
 
 <!-- setting(json) disable list>
 {

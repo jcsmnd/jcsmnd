@@ -31,13 +31,13 @@ $db = new pdoDB;
 <div class="container">
     <div id="rotate" class="row text-center">
         <div class="col-sm-3">
-            <a href="https://jcsmnd.github.io" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="How cool it is">Github.io</a>  
+            <a href="https://jcsmnd.github.io" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="angular">Github.io</a>  
         </div>
         <div class="col-sm-3">
             <a href="/blog" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)">Wordpress</a>
         </div>
         <div class="col-sm-3">
-            <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Love laravel don't ya?">Laravel</a> 
+            <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="upgrade to the newest version">Laravel</a> 
         </div>
         <div class="col-sm-3">
             <a href="/projects/demo01" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="US Stock tracker - finnhub API with python cgi">Python</a> 
@@ -56,6 +56,9 @@ $db = new pdoDB;
         </div>
         <div class="col-sm-3">
             <a href="https://github.com/jcsmnd" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Github</a>
+        </div>
+        <div class="col-sm-3">
+            <a href="/" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD">Homelab</a>
         </div>
     </div>
 </div>
