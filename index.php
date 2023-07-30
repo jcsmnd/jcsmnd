@@ -23,13 +23,17 @@ $db = new pdoDB;
     <a class="navbar-brand" href="/">JCSMND.COM</a>
 </nav>
 <div class="jumbotron text-center">
-    <p class="img"><img id="tiger" src="assets/images/tiger.png" alt="Towson Tigers" class="rounded-circle"></p>
+    <div><i class="fas fa-radiation-alt"></i> Server Migration in progress from ubuntu 18.04 to 22.04</div>
+    <p class="img"><img id="tiger" src="assets/images/profile01.png" alt="Towson Tigers" class="rounded-circle"></p>
     <p><h2 class="hide"><i class="far fa-smile"></i> Hello!</h2></p> 
     <p><h4 class="hide">Welcome to my website.</h4></p>
     <p><span>Please feel free to browse through my portfolios below&nbsp;<i class="fa fa-solid fa-arrow-down"></i></span></p>
 </div>
 <div class="container">
     <div id="rotate" class="row text-center">
+        <div class="col-sm-3">
+            <a href="https://github.com/jcsmnd" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Github</a>
+        </div>
         <div class="col-sm-3">
             <a href="https://jcsmnd.github.io" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="angular">Github.io</a>  
         </div>
@@ -53,9 +57,6 @@ $db = new pdoDB;
         </div>
         <div class="col-sm-3">
             <a href="/nextcloud" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Nextcloud</a>
-        </div>
-        <div class="col-sm-3">
-            <a href="https://github.com/jcsmnd" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Github</a>
         </div>
         <div class="col-sm-3">
             <a href="/" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD">Homelab</a>
