@@ -5,11 +5,15 @@
 Please check it out! [jcsmnd.com](https://www.jcsmnd.com)
 
 Operated by:
-Amazon Web Services Lightsail - Virtual Ubuntu 18.04.6 LTS
-- Apache HTTP Server
-- PHP 8.2.6
-- MYSQL 5.7.42
-- Laravel 10.10.1
+Amazon Web Services Lightsail - Virtual Ubuntu 18.04.6 => 20.04.01
+- Apache2 2.4.52
+- PHP 8.2.6 => 8.2.8
+- MYSQL 5.7.42 => 8.0.33
+- Laravel 10.10.1 => 10.16.1
+- Node 18.17
+- NPM 9.6.7
+- Express 4.18.2
+- Socket.io 4.7.1
 
 <!-- setting(json) disable list>
 {
