@@ -23,10 +23,12 @@ $db = new pdoDB;
     <a class="navbar-brand" href="/">JCSMND.COM</a>
 </nav>
 <div class="jumbotron text-center">
-    <div><i class="fas fa-radiation-alt"></i> Server Migration in progress from ubuntu 18.04 to 22.04</div>
+    <div id="notify">
+        <i class="fas fa-radiation-alt"></i> Server Migration in progress from ubuntu 18.04 to 22.04
+    </div>
     <p class="img"><img id="tiger" src="assets/images/profile01.png" alt="Towson Tigers" class="rounded-circle"></p>
     <p><h2 class="hide"><i class="far fa-smile"></i> Hello!</h2></p> 
-    <p><h4 class="hide">Welcome to my website.</h4></p>
+    <p><h4 class="hide">Welcome to my website</h4></p>
     <p><span>Please feel free to browse through my portfolios below&nbsp;<i class="fa fa-solid fa-arrow-down"></i></span></p>
 </div>
 <div class="container">
@@ -41,28 +43,96 @@ $db = new pdoDB;
             <a href="/blog" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)">Wordpress</a>
         </div>
         <div class="col-sm-3">
-            <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="upgrade to the newest version">Laravel</a> 
+            <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="PWA WIP">Laravel</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo01" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="US Stock tracker - finnhub API with python cgi">Python</a> 
+            <a href="/quasar" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="WIP">Quasar</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo02" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="RESTful - Github API with Vanilla JavaScript">Demo4 </a> 
+            <a href="/projects/demo01" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="US Stock tracker - finnhub API with python cgi WIP">Python</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/nodejs" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=".io game - node.js">Node.js</a> 
+            <a href="/projects/demo02" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="RESTful - Github API with Vanilla JavaScript">Demo2 </a> 
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo04" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Unity3D WebGL">Demo 6</a>
+            <a href="/nodejs" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=".io game - node.js WIP">Node.js</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/nextcloud" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Nextcloud</a>
+            <a href="/projects/demo06" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Unity3D WebGL">Demo 6</a>
         </div>
         <div class="col-sm-3">
-            <a href="/" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD">Homelab</a>
+            <a href="/nextcloud" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Nextcloud</a>
+        </div>
+        <div class="col-sm-3">
+            <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD">Homelab</a>
         </div>
     </div>
 </div>
 <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+
+<footer>
+    <div class="container-outer">
+    <div class="container-inner">
+        <div class="container-width">
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright">
+            <a href="https://www.tradingview.com" rel="noopener" target="_blank">
+                <span class="blue-text">Quotes</span>
+            </a> by TradingView
+            </div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+                "symbols": [
+                {
+                    "title": "S&P 500",
+                    "proName": "FOREXCOM:SPXUSD"
+                },
+                {
+                    "title": "Nasdaq 100",
+                    "proName": "INDEX:IUXX"
+                },
+                {
+                    "title": "EUR/USD",
+                    "proName": "FX_IDC:EURUSD"
+                },
+                {
+                    "title": "BTC/USD",
+                    "proName": "BITFINEX:BTCUSD"
+                },
+                {
+                    "title": "ETH/USD",
+                    "proName": "BITFINEX:ETHUSD"
+                },
+                {
+                    "description": "Tesla",
+                    "proName": "NASDAQ:TSLA"
+                },
+                {
+                    "description": "Microsoft",
+                    "proName": "NASDAQ:MSFT"
+                },
+                {
+                    "description": "Apple",
+                    "proName": "NASDAQ:AAPL"
+                },
+                {
+                    "description": "Google",
+                    "proName": "NASDAQ:GOOGL"
+                }
+                ],
+                "colorTheme": "dark",
+                "isTransparent": true,
+                "showSymbolLogo": true,
+                "locale": "en"
+            }
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+        </div>
+    </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -17,12 +17,12 @@ a.btn {
 
 #tiger {
   max-width: 50%;
-  height: 200px;
+  max-height: 200px;
 }
 
 .back-to-top {
   position: fixed;
-  bottom: 25px;
+  bottom: 50px;
   right: 25px;
   display: none;
 }
@@ -59,4 +59,42 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
   box-shadow: 0px -5px 15px 0px #bfbfbf;
   height: 25px;
 
+}
+
+:root{
+  --tl: calc(1100px - 100%); /* transition length */
+}
+
+.container-outer {
+  max-width: 1100px;
+  /* update the width of the display contaier as per your requirement */
+}
+.container-width {
+  width: 1800px;
+  /* Total width of the whole iframe, based on the number of tickers displaying */
+  animation: marquee 10s linear infinite;
+}
+.container-width:hover {
+  animation-play-state: paused
+}
+
+.container-outer {
+  margin: 0 auto;
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.container-inner {
+  height: 100px;
+  margin-top: -1px;
+}
+
+#notify {
+  margin-top: 30px;
+}
+
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(var(--tl), 0); }
 }
