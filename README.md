@@ -5,7 +5,7 @@
 Please check it out! [jcsmnd.com](https://www.jcsmnd.com)
 
 Operated by:
-Amazon Web Services Lightsail - Virtual Ubuntu 18.04.6 => 20.04.01
+Amazon Web Services Lightsail - Virtual Private Server: Ubuntu 18.04.6 => 20.04.01
 - Apache2 2.4.52
 - PHP 8.2.6 => 8.2.8
 - MYSQL 5.7.42 => 8.0.33
