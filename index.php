@@ -10,13 +10,13 @@ $db = new pdoDB;
     <title>JCSMND <?php echo date("Y");?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/styles/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="assets/styles/fontawesome/all.css">
-    <link rel="stylesheet" href="assets/styles/index.css">
-    <script src="assets/scripts/jquery-3.5.1.min.js"></script>
-    <script src="assets/scripts/bootstrap/bootstrap.bundle.js"></script>
-    <script src="assets/scripts/gsap/gsap.min.js"></script>
-    <script src="assets/scripts/index.js"></script>
+    <link rel="stylesheet" href="/assets/styles/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/assets/styles/fontawesome/all.css">
+    <link rel="stylesheet" href="/assets/styles/index.css">
+    <script src="/assets/scripts/jquery-3.5.1.min.js"></script>
+    <script src="/assets/scripts/bootstrap/bootstrap.bundle.js"></script>
+    <script src="/assets/scripts/gsap/gsap.min.js"></script>
+    <script src="/assets/scripts/index.js"></script>
 </head>
 <body>
 <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" style="padding-top: 0; padding-bottom: 0;">
@@ -24,11 +24,13 @@ $db = new pdoDB;
 </nav>
 <div class="jumbotron text-center">
     <div id="notify">
-        <i class="fas fa-radiation-alt"></i> Server Migration in progress from ubuntu 18.04 to 22.04
+        <i class="fas fa-radiation-alt"></i> Server Migration is in progress from ubuntu 18.04 to 22.04
     </div>
-    <p class="img"><img id="tiger" src="assets/images/profile01.png" alt="Towson Tigers" class="rounded-circle"></p>
+    <p class="img"><img id="tiger" src="assets/images/profile01.png" alt="jcsmnd.com" class="rounded-circle"></p>
     <p><h2 class="hide"><i class="far fa-smile"></i> Hello!</h2></p> 
-    <p><h4 class="hide">Welcome to my website</h4></p>
+    <p><h4 class="hide">Welcome to jcsmnd website</h4></p>
+    <p>If you have any questions or inquiries, contact at <a href="mailto:jcsmnd@gmail.com">HERE</a></p>
+    <p>Here is my <i class="fab fa-linkedin"></i> URL: <a href="https://www.linkedin.com/in/myungsik-k/" target="_blank">HERE</a></p>
     <p><span>Please feel free to browse through my portfolios below&nbsp;<i class="fa fa-solid fa-arrow-down"></i></span></p>
 </div>
 <div class="container">
@@ -40,7 +42,10 @@ $db = new pdoDB;
             <a href="https://jcsmnd.github.io" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="angular">Github.io</a>  
         </div>
         <div class="col-sm-3">
-            <a href="/blog" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)">Wordpress</a>
+            <a href="https://blog.jcsmnd.com/" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Up to date">Wordpress</a>
+        </div>
+        <div class="col-sm-3">
+            <a href="/wordpress" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)">Wordpress (old)</a>
         </div>
         <div class="col-sm-3">
             <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="PWA WIP">Laravel</a> 
@@ -52,19 +57,22 @@ $db = new pdoDB;
             <a href="/projects/demo01" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="US Stock tracker - finnhub API with python cgi WIP">Python</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo02" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="RESTful - Github API with Vanilla JavaScript">Demo2 </a> 
+            <a href="/projects/demo02" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="RESTful - Github API with Vanilla JavaScript">Github API</a> 
         </div>
         <div class="col-sm-3">
             <a href="/nodejs" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=".io game - node.js WIP">Node.js</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo06" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Unity3D WebGL">Demo 6</a>
+            <a href="/projects/demo06" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Unity3D WebGL">Unity3D WebGL</a>
         </div>
         <div class="col-sm-3">
             <a href="/nextcloud" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Nextcloud</a>
         </div>
         <div class="col-sm-3">
             <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD">Homelab</a>
+        </div>
+        <div class="col-sm-3">
+            <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD">Flutter</a>
         </div>
     </div>
 </div>
