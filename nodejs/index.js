@@ -27,10 +27,10 @@
 const express = require('express'); 
 const app = express();
 const server = app.listen(8085,console.log("Socket.io Hello Wolrd server started!"));
-//const io = require('socket.io')(server);
+const io = require('socket.io')(server);
 
 app.use((req, res) => {
-   res.send('express.js working 2023');
+   res.send('<div>express.js working 2024</div>');
 });
 /******** working end*****/
 

@@ -36,43 +36,46 @@ $db = new pdoDB;
 <div class="container">
     <div id="rotate" class="row text-center">
         <div class="col-sm-3">
-            <a href="https://github.com/jcsmnd" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Github</a>
+            <a href="https://github.com/jcsmnd" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=""><i class="fab fa-github icn"></i>Github</a>
         </div>
         <div class="col-sm-3">
-            <a href="https://jcsmnd.github.io" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="angular">Github.io</a>  
+            <a href="https://jcsmnd.github.io" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="angular"><i class="fab fa-angular icn"></i>Angular</a>  
         </div>
         <div class="col-sm-3">
-            <a href="https://blog.jcsmnd.com/" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Up to date">Wordpress</a>
+            <a href="https://blog.jcsmnd.com/" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Up to date"><i class="fab fa-wordpress icn"></i>Wordpress</a>
         </div>
         <div class="col-sm-3">
-            <a href="/wordpress" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)">Wordpress (old)</a>
+            <a href="/wordpress" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)"><i class="fab fa-wordpress-simple icn"></i>Wordpress (old)</a>
         </div>
         <div class="col-sm-3">
-            <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="PWA WIP">Laravel</a> 
+            <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="PWA WIP"><i class="fab fa-laravel icn"></i>Laravel</a> 
+        </div>
+        <div class="col-sm-3 quasar">
+            <a href="/quasar" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="WIP"><img class="doc-header__logo-img icn" src="https://cdn.quasar.dev/logo-v2/svg/logo-dark.svg" alt="Quasar Logo" width="16" height="16">Quasar</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/quasar" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="WIP">Quasar</a> 
+            <a href="/projects/demo01" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="US Stock tracker - finnhub API with python cgi WIP"><i class="fab fa-python icn"></i>Python</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo01" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="US Stock tracker - finnhub API with python cgi WIP">Python</a> 
+            <a href="/projects/demo02" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="RESTful - Github API with Vanilla JavaScript"><i class="fab fa-github icn"></i>Github API</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo02" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="RESTful - Github API with Vanilla JavaScript">Github API</a> 
+            <a href="/nodejs" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=".io game - node.js WIP"><i class="fab fa-node icn"></i>Node.js</a> 
         </div>
         <div class="col-sm-3">
-            <a href="/nodejs" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=".io game - node.js WIP">Node.js</a> 
+            <a href="/projects/demo06" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Unity3D WebGL"><i class="fab fa-unity icn"></i>Unity3D WebGL</a>
         </div>
         <div class="col-sm-3">
-            <a href="/projects/demo06" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Unity3D WebGL">Unity3D WebGL</a>
+            <a href="/nextcloud" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=""><img src="https://nextcloud.com/wp-content/uploads/2023/02/logo_nextcloud_white.svg" class="custom-logo entered lazyloaded" alt="Nextcloud logo" decoding="async" data-lazy-src="https://nextcloud.com/wp-content/uploads/2023/02/logo_nextcloud_white.svg" data-ll-status="loaded" width="16" height="16"> Nextcloud</a>
         </div>
         <div class="col-sm-3">
-            <a href="/nextcloud" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="">Nextcloud</a>
+            <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD"><i class="fas fa-flask icn"></i>Homelab</a>
         </div>
         <div class="col-sm-3">
-            <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD">Homelab</a>
+            <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD"><img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAASFBMVEVHcEw3u+lD0f1B0P00uOtG0v1F0f1B0P1B0P1E0f1G0f1B0P1A0f4kvv0evP4txf4evP0YpegGV5wHWZ0NTJUZoeQFV5wDVpvME6UAAAAAGHRSTlMABltpE+3//6OV/ybGxv//7v+X/v/sW2mBerO4AAAAkElEQVR4Ac3QRxKEMBBDUUdyjve/6TSFmIQtb9GOep9kdZ82mHUqNO2zLMuPFTFHUEa8QhB1BNwz4hKkPSNecZc93LPL62sO7nB+8CbHGv0OsqB/v4I5Cnib3RwFvOuzgMscvJMi5DK4FMzPIuJuQDBOKjx9FuM802JcZlaIS0CK9WBaiPFCJQudLjZsd3L1AlcdDxp3+SgrAAAAAElFTkSuQmCC" style="height:18px;width:18px" alt="" data-atf="1" data-frt="0"> Flutter</a>
         </div>
         <div class="col-sm-3">
-            <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD">Flutter</a>
+            <a href="/react" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD"><i class="fab fa-react icn"></i>React</a>
         </div>
     </div>
 </div>

@@ -72,7 +72,7 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
 .container-width {
   width: 1800px;
   /* Total width of the whole iframe, based on the number of tickers displaying */
-  animation: marquee 10s linear infinite;
+  animation: marquee 60s linear infinite;
 }
 .container-width:hover {
   animation-play-state: paused
@@ -92,6 +92,19 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
 
 #notify {
   margin-top: 30px;
+}
+
+.icn {
+  margin-right: 5px;
+}
+
+.col-sm-3.quasar:hover .doc-header__logo-img {
+  transform: rotate(-360deg);
+}
+
+.doc-header__logo-img {
+  transition: all 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 @keyframes marquee {

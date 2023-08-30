@@ -13,3 +13,6 @@ favicon.ico
 nodejs/node_modules
 db_config.php
 /nextcloud
+404.html
+/wordpress
+/blog

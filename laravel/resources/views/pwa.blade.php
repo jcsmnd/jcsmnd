@@ -28,7 +28,7 @@
                 Check top right browser Install the app icon - Desktop: Chrome, Edge only
             </div>
             <div style="color:aqua;">
-                Mobile: Chrome, Edge, Safari, Firefox Also supported
+                Mobile: Chrome, Edge, Safari, Firefox Also supported (Work in progress)
             </div>
             {{-- <div class="links">
                 <a href="https://laravel.com/docs">Docs</a>
@@ -41,7 +41,7 @@
             </div> --}}
             <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
                 <div class="ml-4 text-center text-lg text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0" style="font-weight:bold;"><a href='../laravel'>Back to Laravel</a></div>
-                <div class="ml-4 text-center text-lg text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">I use PWA from <a href="https://github.com/silviolleite/laravel-pwa" target="_blank" style="font-weight:bold;">here</a></div>
+                <div class="ml-4 text-center text-lg text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">I import PWA from <a href="https://github.com/silviolleite/laravel-pwa" target="_blank" style="font-weight:bold;">here</a></div>
             </div>
         </div>
     </div>
