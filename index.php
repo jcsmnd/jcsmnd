@@ -35,47 +35,47 @@ $db = new pdoDB;
 </div>
 <div class="container">
     <div id="rotate" class="row text-center">
-        <div class="col-sm-3">
+        <div class="col-sm-3 anm">
             <a href="https://github.com/jcsmnd" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=""><i class="fab fa-github icn"></i>Github</a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 anm">
             <a href="https://jcsmnd.github.io" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="angular"><i class="fab fa-angular icn"></i>Angular</a>  
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 anm">
             <a href="https://blog.jcsmnd.com/" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Up to date"><i class="fab fa-wordpress icn"></i>Wordpress</a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 anm">
             <a href="/wordpress" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)"><i class="fab fa-wordpress-simple icn"></i>Wordpress (old)</a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 anm">
             <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="PWA WIP"><i class="fab fa-laravel icn"></i>Laravel</a> 
         </div>
-        <div class="col-sm-3 quasar">
+        <div class="col-sm-3 anm">
             <a href="/quasar" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="WIP"><img class="doc-header__logo-img icn" src="https://cdn.quasar.dev/logo-v2/svg/logo-dark.svg" alt="Quasar Logo" width="16" height="16">Quasar</a> 
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 anm">
             <a href="/projects/demo01" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="US Stock tracker - finnhub API with python cgi WIP"><i class="fab fa-python icn"></i>Python</a> 
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 anm">
             <a href="/projects/demo02" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="RESTful - Github API with Vanilla JavaScript"><i class="fab fa-github icn"></i>Github API</a> 
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 anm">
             <a href="/nodejs" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=".io game - node.js WIP"><i class="fab fa-node icn"></i>Node.js</a> 
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 anm">
             <a href="/projects/demo06" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="Unity3D WebGL"><i class="fab fa-unity icn"></i>Unity3D WebGL</a>
         </div>
-        <div class="col-sm-3">
-            <a href="/nextcloud" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=""><img src="https://nextcloud.com/wp-content/uploads/2023/02/logo_nextcloud_white.svg" class="custom-logo entered lazyloaded" alt="Nextcloud logo" decoding="async" data-lazy-src="https://nextcloud.com/wp-content/uploads/2023/02/logo_nextcloud_white.svg" data-ll-status="loaded" width="16" height="16"> Nextcloud</a>
+        <div class="col-sm-3 anm">
+            <a href="/nextcloud" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title=""><img src="https://nextcloud.com/wp-content/uploads/2023/02/logo_nextcloud_white.svg" class="custom-logo entered icn lazyloaded" alt="Nextcloud logo" decoding="async" data-lazy-src="https://nextcloud.com/wp-content/uploads/2023/02/logo_nextcloud_white.svg" data-ll-status="loaded" width="16" height="16">Nextcloud</a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 anm">
             <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD"><i class="fas fa-flask icn"></i>Homelab</a>
         </div>
-        <div class="col-sm-3">
-            <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD"><img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAASFBMVEVHcEw3u+lD0f1B0P00uOtG0v1F0f1B0P1B0P1E0f1G0f1B0P1A0f4kvv0evP4txf4evP0YpegGV5wHWZ0NTJUZoeQFV5wDVpvME6UAAAAAGHRSTlMABltpE+3//6OV/ybGxv//7v+X/v/sW2mBerO4AAAAkElEQVR4Ac3QRxKEMBBDUUdyjve/6TSFmIQtb9GOep9kdZ82mHUqNO2zLMuPFTFHUEa8QhB1BNwz4hKkPSNecZc93LPL62sO7nB+8CbHGv0OsqB/v4I5Cnib3RwFvOuzgMscvJMi5DK4FMzPIuJuQDBOKjx9FuM802JcZlaIS0CK9WBaiPFCJQudLjZsd3L1AlcdDxp3+SgrAAAAAElFTkSuQmCC" style="height:18px;width:18px" alt="" data-atf="1" data-frt="0"> Flutter</a>
+        <div class="col-sm-3 anm">
+            <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD"><img class="XNo5Ab icn" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAASFBMVEVHcEw3u+lD0f1B0P00uOtG0v1F0f1B0P1B0P1E0f1G0f1B0P1A0f4kvv0evP4txf4evP0YpegGV5wHWZ0NTJUZoeQFV5wDVpvME6UAAAAAGHRSTlMABltpE+3//6OV/ybGxv//7v+X/v/sW2mBerO4AAAAkElEQVR4Ac3QRxKEMBBDUUdyjve/6TSFmIQtb9GOep9kdZ82mHUqNO2zLMuPFTFHUEa8QhB1BNwz4hKkPSNecZc93LPL62sO7nB+8CbHGv0OsqB/v4I5Cnib3RwFvOuzgMscvJMi5DK4FMzPIuJuQDBOKjx9FuM802JcZlaIS0CK9WBaiPFCJQudLjZsd3L1AlcdDxp3+SgrAAAAAElFTkSuQmCC" style="height:18px;width:18px" alt="" data-atf="1" data-frt="0">Flutter</a>
         </div>
-        <div class="col-sm-3">
-            <a href="/react" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD"><i class="fab fa-react icn"></i>React</a>
+        <div class="col-sm-3 anm">
+            <a href="/react" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="react"><i class="fab fa-react icn"></i>React</a>
         </div>
     </div>
 </div>
@@ -83,67 +83,68 @@ $db = new pdoDB;
 
 <footer>
     <div class="container-outer">
-    <div class="container-inner">
-        <div class="container-width">
-        <!-- TradingView Widget BEGIN -->
-        <div class="tradingview-widget-container">
-            <div class="tradingview-widget-container__widget"></div>
-            <div class="tradingview-widget-copyright">
-            <a href="https://www.tradingview.com" rel="noopener" target="_blank">
-                <span class="blue-text">Quotes</span>
-            </a> by TradingView
+        <div class="container-inner">
+            <div class="container-width">
+                <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright">
+                    <a href="https://www.tradingview.com" rel="noopener" target="_blank">
+                        <span class="blue-text">Quotes</span>
+                    </a> by TradingView
+                    </div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+                    {
+                        "symbols": [
+                        {
+                            "title": "S&P 500",
+                            "proName": "FOREXCOM:SPXUSD"
+                        },
+                        {
+                            "title": "Nasdaq 100",
+                            "proName": "INDEX:IUXX"
+                        },
+                        {
+                            "title": "EUR/USD",
+                            "proName": "FX_IDC:EURUSD"
+                        },
+                        {
+                            "title": "BTC/USD",
+                            "proName": "BITFINEX:BTCUSD"
+                        },
+                        {
+                            "title": "ETH/USD",
+                            "proName": "BITFINEX:ETHUSD"
+                        },
+                        {
+                            "description": "Tesla",
+                            "proName": "NASDAQ:TSLA"
+                        },
+                        {
+                            "description": "Microsoft",
+                            "proName": "NASDAQ:MSFT"
+                        },
+                        {
+                            "description": "Apple",
+                            "proName": "NASDAQ:AAPL"
+                        },
+                        {
+                            "description": "Google",
+                            "proName": "NASDAQ:GOOGL"
+                        }
+                        ],
+                        "colorTheme": "dark",
+                        "isTransparent": true,
+                        "showSymbolLogo": true,
+                        "locale": "en"
+                    }
+                    </script>
+                </div>
+                <!-- TradingView Widget END -->
             </div>
-            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
-            {
-                "symbols": [
-                {
-                    "title": "S&P 500",
-                    "proName": "FOREXCOM:SPXUSD"
-                },
-                {
-                    "title": "Nasdaq 100",
-                    "proName": "INDEX:IUXX"
-                },
-                {
-                    "title": "EUR/USD",
-                    "proName": "FX_IDC:EURUSD"
-                },
-                {
-                    "title": "BTC/USD",
-                    "proName": "BITFINEX:BTCUSD"
-                },
-                {
-                    "title": "ETH/USD",
-                    "proName": "BITFINEX:ETHUSD"
-                },
-                {
-                    "description": "Tesla",
-                    "proName": "NASDAQ:TSLA"
-                },
-                {
-                    "description": "Microsoft",
-                    "proName": "NASDAQ:MSFT"
-                },
-                {
-                    "description": "Apple",
-                    "proName": "NASDAQ:AAPL"
-                },
-                {
-                    "description": "Google",
-                    "proName": "NASDAQ:GOOGL"
-                }
-                ],
-                "colorTheme": "dark",
-                "isTransparent": true,
-                "showSymbolLogo": true,
-                "locale": "en"
-            }
-            </script>
-        </div>
-        <!-- TradingView Widget END -->
         </div>
     </div>
-    </div>
+    <small id="cr21">© <?php echo date("Y"); ?> jcsmnd.com</small>
 </footer>
 </body>
 </html>

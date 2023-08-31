@@ -98,13 +98,27 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
   margin-right: 5px;
 }
 
-.col-sm-3.quasar:hover .doc-header__logo-img {
+.col-sm-3.anm:hover .doc-header__logo-img, .col-sm-3.anm:hover .icn {
   transform: rotate(-360deg);
 }
 
-.doc-header__logo-img {
+.doc-header__logo-img, .icn {
   transition: all 0.5s;
   transition-timing-function: ease-in-out;
+}
+
+.btn:not(:disabled).disabled {
+  cursor: not-allowed;
+}
+
+#cr21 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0e0e0e63;
+  color: white;
+  text-align: center;
 }
 
 @keyframes marquee {
