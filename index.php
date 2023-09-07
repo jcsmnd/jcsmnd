@@ -24,7 +24,7 @@ $db = new pdoDB;
 </nav>
 <div class="jumbotron text-center">
     <div id="notify">
-        <i class="fas fa-radiation-alt"></i> Server Migration is in progress from ubuntu 18.04 to 22.04
+        <i class="fas fa-hard-hat"></i> The website is currently under construction
     </div>
     <p class="img"><img id="tiger" src="assets/images/profile01.png" alt="jcsmnd.com" class="rounded-circle"></p>
     <p><h2 class="hide"><i class="far fa-smile"></i> Hello!</h2></p> 
