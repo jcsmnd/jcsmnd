@@ -16,22 +16,22 @@ $db = new pdoDB;
     <script src="/assets/scripts/jquery-3.5.1.min.js"></script>
     <script src="/assets/scripts/bootstrap/bootstrap.bundle.js"></script>
     <script src="/assets/scripts/gsap/gsap.min.js"></script>
-    <script src="/assets/scripts/index.js"></script>
+    <script src="/assets/scripts/index.js?ut=09252023"></script>
 </head>
 <body>
 <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" style="padding-top: 0; padding-bottom: 0;">
     <a class="navbar-brand" href="/">JCSMND.COM</a>
 </nav>
-<div class="jumbotron text-center">
+<div class="jumbotron text-center" style="padding-bottom:10px;">
     <div id="notify">
-        <i class="fas fa-hard-hat"></i> The website is currently under construction
+        <i class="fas fa-exclamation-circle"></i> The website is currently under construction
     </div>
     <p class="img"><img id="tiger" src="assets/images/profile01.png" alt="jcsmnd.com" class="rounded-circle"></p>
     <p><h2 class="hide"><i class="far fa-smile"></i> Hello!</h2></p> 
     <p><h4 class="hide">Welcome to jcsmnd website</h4></p>
     <p>If you have any questions or inquiries, contact at <a href="mailto:jcsmnd@gmail.com">HERE</a></p>
-    <p>Here is my <i class="fab fa-linkedin"></i> URL: <a href="https://www.linkedin.com/in/myungsik-k/" target="_blank">HERE</a></p>
-    <p><span>Please feel free to browse through my portfolios below&nbsp;<i class="fa fa-solid fa-arrow-down"></i></span></p>
+    <!-- <p>Here is my <i class="fab fa-linkedin"></i> URL: <a href="https://www.linkedin.com/in/myungsik-k/" target="_blank">HERE</a></p> -->
+    <p><span>Please feel free to browse through the portfolios below&nbsp;<i class="fa fa-solid fa-arrow-down"></i></span></p>
 </div>
 <div class="container">
     <div id="rotate" class="row text-center">
@@ -46,6 +46,9 @@ $db = new pdoDB;
         </div>
         <div class="col-sm-3 anm">
             <a href="/wordpress" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="AWS VPC EC2(Windows Server 2016) => AWS LIGHTSAIL(Ubuntu Custom Server 18.04, wordpress - php 7, mysql 5.7)"><i class="fab fa-wordpress-simple icn"></i>Wordpress (old)</a>
+        </div>
+        <div class="col-sm-3 anm">
+            <a href="/" class="btn btn-primary btn-block disabled" role="button" data-toggle="tooltip" data-placement="bottom" rel="noopener noreferrer" title="TBD"><i class="fab fa-php icn"></i>Core PHP</a>
         </div>
         <div class="col-sm-3 anm">
             <a href="/laravel" class="btn btn-primary btn-block" role="button" data-toggle="tooltip" data-placement="bottom" target="_blank" rel="noopener noreferrer" title="PWA WIP"><i class="fab fa-laravel icn"></i>Laravel</a> 
@@ -86,7 +89,7 @@ $db = new pdoDB;
         <div class="container-inner">
             <div class="container-width">
                 <!-- TradingView Widget BEGIN -->
-                <div class="tradingview-widget-container">
+                <!-- <div class="tradingview-widget-container">
                     <div class="tradingview-widget-container__widget"></div>
                     <div class="tradingview-widget-copyright">
                     <a href="https://www.tradingview.com" rel="noopener" target="_blank">
@@ -139,7 +142,7 @@ $db = new pdoDB;
                         "locale": "en"
                     }
                     </script>
-                </div>
+                </div> -->
                 <!-- TradingView Widget END -->
             </div>
         </div>
