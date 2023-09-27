@@ -16,7 +16,7 @@ $db = new pdoDB;
     <script src="/assets/scripts/jquery-3.5.1.min.js"></script>
     <script src="/assets/scripts/bootstrap/bootstrap.bundle.js"></script>
     <script src="/assets/scripts/gsap/gsap.min.js"></script>
-    <script src="/assets/scripts/index.js?ut=09252023"></script>
+    <script src="/assets/scripts/index.js?ut=<?php echo base64_encode("09262023"); ?>"></script>
 </head>
 <body>
 <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" style="padding-top: 0; padding-bottom: 0;">
