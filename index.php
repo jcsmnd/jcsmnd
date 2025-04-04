@@ -2,6 +2,7 @@
 <?php
 include_once 'pdo.php';
 $db = new pdoDB;
+// $count = $db->query(sprintf('SELECT * FROM access_log WHERE '));
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +29,7 @@ $db = new pdoDB;
     </div>
     <p class="img"><img id="tiger" src="assets/images/profile01.png" alt="jcsmnd.com" class="rounded-circle"></p>
     <p><h2 class="hide"><i class="far fa-smile"></i> Hello!</h2></p> 
-    <p><h4 class="hide">Welcome to jcsmnd website</h4></p>
+    <p><h4 class="hide">I'm a full-stack developer and always eager to <br>learn cutting-edge web development technologies.</h4></p>
     <p>If you have any questions or inquiries, contact at <a href="mailto:jcsmnd@gmail.com">HERE</a></p>
     <!-- <p>Here is my <i class="fab fa-linkedin"></i> URL: <a href="https://www.linkedin.com/in/myungsik-k/" target="_blank">HERE</a></p> -->
     <p><span>Please feel free to browse through the portfolios below&nbsp;<i class="fa fa-solid fa-arrow-down"></i></span></p>
